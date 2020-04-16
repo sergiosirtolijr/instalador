@@ -61,7 +61,7 @@ main() {
       exit 1
     fi
   fi
-  env git clone --depth=1 https://github.com/rbarros/installer.sh.git $ISH || {
+  env git clone --depth=1 https://github.com/sergiosirtolijr/instalador.git $ISH || {
     printf "Error: git clone of installer.sh repo failed\n"
     exit 1
   }
