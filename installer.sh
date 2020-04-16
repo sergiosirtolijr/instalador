@@ -4,7 +4,7 @@
 
   VERSION="1.3.0"
   LOCAL_RAW=http://localhost/installer.sh
-  REMOTE_RAW=https://raw.github.com/rbarros/installer.sh/master
+  REMOTE_RAW=https://raw.github.com/sergiosirtolijr/instalador/master
   ROOT_UID=0
   ARRAY_SEPARATOR="#"
   OS=""
@@ -69,7 +69,7 @@
     printf '%s\n' "                                                                v$VERSION"
     #printf '%s\n' 'Please look over the ~/.installerrc file to select plugins and options.'
     printf '%s\n'
-    printf '%s\n' 'p.s. Follow us at http://github.com/rbarros/installer.sh'
+    printf '%s\n' 'p.s. Follow us at http://github.com/sergiosirtolijr/instalador'
     printf '%s\n' "usage: $0 [-l local] [-c clean]"
     printf '%s\n' '-l local Run a local'
     printf '%s\n' '-c clean Clean a scripts downloaded in temporary diretory'

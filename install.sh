@@ -91,7 +91,6 @@ main() {
   echo ''
   echo 'Please look over the ~/.installerrc file to select plugins and options.'
   echo ''
-  echo 'p.s. Follow us at https://twitter.com/rbarros.'
   echo ''
   echo ''
   printf "${NORMAL}"
