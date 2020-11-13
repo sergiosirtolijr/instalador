@@ -297,8 +297,8 @@
   oracle_instant() {
     step "Install oracle instant"
     step_done
-    curl_or_wget "https://s3-sa-east-1.amazonaws.com/ramon-barros/downloads/oracle-instantclient11.2-basic_11.2.0.4.0-2_amd64.deb" "/tmp/oracle-instantclient11.2-basic_11.2.0.4.0-2_amd64.deb"
-    curl_or_wget "https://s3-sa-east-1.amazonaws.com/ramon-barros/downloads/oracle-instantclient11.2-devel_11.2.0.4.0-2_amd64.deb" "/tmp/oracle-instantclient11.2-devel_11.2.0.4.0-2_amd64.deb"
+    curl_or_wget "https://download-client-oracle.s3.us-east-2.amazonaws.com/oracle-instantclient11.2-basic_11.2.0.4.0-2_amd64.deb" "/tmp/oracle-instantclient11.2-basic_11.2.0.4.0-2_amd64.deb"
+    curl_or_wget "https://download-client-oracle.s3.us-east-2.amazonaws.com/oracle-instantclient11.2-devel_11.2.0.4.0-2_amd64.deb" "/tmp/oracle-instantclient11.2-devel_11.2.0.4.0-2_amd64.deb"
     super -v+ dpkg -i /tmp/oracle-instantclient11.2-basic_11.2.0.4.0-2_amd64.deb
     super -v+ dpkg -i /tmp/oracle-instantclient11.2-devel_11.2.0.4.0-2_amd64.deb
     super mkdir /usr/lib/oracle/11.2/client64/network/admin -p
